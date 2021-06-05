@@ -91,29 +91,3 @@ module.exports = {
   gradeQuiz: gradeQuiz,
   runProgram: runProgram
 };
-
-
-/*for question 1
-if (candidateAnswer.toLowerCase().trim() === correctAnswer.toLowerCase()) {
-      console.log(feedbackPositive)
-      console.log(`Your Answer: ${candidateAnswer}
-Correct Answer: ${correctAnswer}`);
-      } else {
-        console.log(feedbackNegative)
-        console.log(`Your Answer: ${candidateAnswer}
-Correct Answer: ${correctAnswer}`);
-      }
-
-//for the rest of the questions
-for (let i = 0; i < questions.length; i++) {
-    if (candidateAnswers[i].toLowerCase().trim() === correctAnswers[i].toLowerCase()) {
-      console.log(feedbackPositive)
-      console.log(`Your Answer: ${candidateAnswers[i]}
-Correct Answer: ${correctAnswers [i]}`);
-      } else {
-        console.log(feedbackNegative)
-        console.log(`Your Answer: ${candidateAnswers[i]}
-Correct Answer: ${correctAnswers[i]}`);
-      }
-}
-*/
