@@ -5,7 +5,7 @@ const input = require('readline-sync');
 // TODO 1.1a: Define candidateName // 
 let candidateName = '';
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
-let question = '\nWho was the first American woman in space? ';
+let question = 'Who was the first American woman in space? ';
 let correctAnswer = 'Sally Ride';
 let candidateAnswer = '';
 
@@ -19,7 +19,7 @@ let questions = [
 
 let correctAnswers = [
   'Sally Ride',
-  'True',
+  'true',
   '40',
   'Trajectory',
   '3',
